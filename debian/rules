@@ -159,6 +159,7 @@ pagespeed_configure_flags := \
 	                --add-module=$(MODULESDIR)/srcache-nginx-module \
                         --add-module=$(MODULESDIR)/HttpRedisModule \
                         --add-module=$(MODULESDIR)/redis2-nginx-module \
+			--add-module=$(MODULESDIR)/set-misc-nginx-module \
 			--add-module=$(MODULESDIR)/ngx_pagespeed
 
 %:
